@@ -33,4 +33,19 @@
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
   }
+
+  &:first-child {
+    margin-right: 1rem;
+  }
+
+  &.google-sign-in {
+    background-color: #34495e;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: #34495e;
+      border: 2px solid #34495e;
+    }
+  }
 }
