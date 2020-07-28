@@ -1,5 +1,5 @@
-.sign-in {
-  width: 55%;
+.sign-up {
+  width: 50%;
   display: flex;
   padding-top: 3.5rem;
   flex-direction: column;
@@ -8,10 +8,5 @@
   .title {
     margin: 10px 0;
     color: #34495e;
-  }
-
-  .buttons {
-    display: flex;
-    justify-content: space-between;
   }
 }
