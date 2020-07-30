@@ -4,7 +4,7 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
-
+  position: relative;
   .image {
     width: 88%;
     height: 100%;
@@ -16,6 +16,30 @@
     -o-border-radius: 1rem;
     background: #f8f9f9;
     box-shadow: 5px 5px 21px #b5b6b6, -5px -5px 21px #ffffff;
+  }
+
+  .custom-button {
+    z-index: 1000;
+    width: 80%;
+    opacity: 0.7;
+    position: absolute;
+    top: 16rem;
+    display: none;
+  }
+
+  &:hover {
+    .image {
+      opacity: 0.7;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+    }
+    .custom-button {
+      opacity: 0.85;
+      display: flex;
+    }
   }
 
   .collection-footer {
