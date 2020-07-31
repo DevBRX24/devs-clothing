@@ -1,0 +1,37 @@
+.checkout-page {
+  width: 55%;
+  min-height: 90vh;
+  display: flex;
+  color: #5d6d7e;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 0;
+  padding-bottom: 5rem;
+
+  .checkout-header {
+    width: 100%;
+    font-weight: bold;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cacfd2;
+    color: #5000ca;
+
+    .header-block {
+      text-transform: capitalize;
+      width: 23%;
+
+      &:last-child {
+        width: 8%;
+      }
+    }
+  }
+
+  .total {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: auto;
+    font-size: 30px;
+    color: #566573;
+  }
+}
